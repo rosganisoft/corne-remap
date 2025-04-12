@@ -23,3 +23,7 @@ include:
     shield: corne_left
   - board: nrfmicro_13
     shield: corne_right
+# Add these cmake-args to the peripherals you wish to use with the dongle
+  - board: nrfmicro_13
+    shield: corne
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
