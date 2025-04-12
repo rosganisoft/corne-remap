@@ -23,6 +23,8 @@ include:
     shield: corne_dongle
   - board: nrfmicro_13
     shield: settings_reset
+  - board: nice_nano_v2
+    shield: settings_reset
 # Add these cmake-args to the peripherals you wish to use with the dongle
   - board: nrfmicro_13
     shield: corne_left
